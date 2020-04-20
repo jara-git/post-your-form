@@ -1,0 +1,79 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    flex: wrap;
+    width:50%;
+    margin: 0 auto;
+    min-height: 800px;
+}
+.movie_title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(52, 52, 55);
+    margin: 2rem auto;
+    font-size: 20px;
+
+}
+.year {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(52, 52, 55);
+    margin: 2rem auto;
+    font-size: 20px;
+
+}
+.poster {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(52, 52, 55);
+    margin: 2rem auto;
+    font-size: 20px;
+
+}
+.director {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(52, 52, 55);
+    margin: 2rem auto;
+    font-size: 20px;
+
+}
+.genre {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(52, 52, 55);
+    margin: 2rem auto;
+    font-size: 20px;
+
+}
+.about {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(52, 52, 55);
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+
+}
+.comments {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(70, 70, 72);
+    margin: 2rem auto 0.25rem;
+}
+.submitting{
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkcyan;
+    font-weight: bolder;
+    
+    margin: 0.2rem auto 2rem;
+    width: 80px;
+    height:80px;
+    border-radius: 80px;
+    border: 1px transparent;
+    background: linear-gradient(225deg, #c2e3e5, #e7ffff);
+    box-shadow:  -10px 10px 19px #9eb8b9, 
+             10px -10px 19px #ffffff;
+}
+.Form {
+    background-color: #c2e3e5;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 20px;
+}

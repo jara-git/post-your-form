@@ -59,14 +59,14 @@ const Form = () => {
                 <label className= 'poster' htmlFor="poster" img='url'>Poster</label>
                 <input type="url" id='urlPoster' value={myMovie.poster} onChange={(event) =>updateMyMovie({...myMovie, poster: event.target.value})}/>
 
-                {/* <label className= 'director' htmlFor="director">Director</label>
+                <label className= 'director' htmlFor="director">Director</label>
                 <input type="text" id='director' name='director' value={myMovie.director} onChange={(event) =>updateMyMovie({...myMovie, director: event.target.value})}/>
 
                 <label className= 'year' htmlFor="year">Year</label>
                 <input type="date" id='year' name='year' value={myMovie.year} onChange={(event) => updateMyMovie({...myMovie, year: event.target.value})}/>
 
                 <label className= 'genre' htmlFor="genre">Genre</label>
-                <input type="text" id='genre' name='genre' value={myMovie.genre} onChange={(event) => updateMyMovie({...myMovie, genre: event.target.value})}/> */}
+                <input type="text" id='genre' name='genre' value={myMovie.genre} onChange={(event) => updateMyMovie({...myMovie, genre: event.target.value})}/>
 
                 <p className='about'>About the movie...
                     <textarea className='comment' rows="8" cols="100" name="comment" form="usrform" value={myMovie.comment} onChange={(event) => updateMyMovie({...myMovie, comment: event.target.value})}/>
